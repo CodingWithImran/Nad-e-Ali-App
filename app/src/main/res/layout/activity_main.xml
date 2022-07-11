@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaperislamic"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/readWazaifList"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bgbutton"
+                android:drawableTop="@drawable/smallread"
+                android:drawableTint="#ffffff"
+                android:fontFamily="@font/montserrat"
+                android:text="Nade Ali A.S"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:backgroundTint="#00FFFFFF" />
+
+            <Button
+                android:id="@+id/NadeAliComplete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/bgbutton"
+                android:drawableTop="@drawable/smallread"
+                android:drawableTint="#ffffff"
+                android:fontFamily="@font/montserrat"
+                android:text="Wazaif Nade Ali A.S"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:backgroundTint="#00FFFFFF" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/shareApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/bgbutton"
+
+            android:drawableLeft="@drawable/sharesmallpng"
+            android:drawableTint="#ffffff"
+            android:fontFamily="@font/montserrat"
+            android:text="Share"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:backgroundTint="#00FFFFFF" />
+
+        <Button
+            android:id="@+id/ratingApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bgbutton"
+            android:drawableLeft="@drawable/smallrate"
+
+            android:drawableTint="#ffffff"
+            android:fontFamily="@font/montserrat"
+            android:text="Rate us"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:backgroundTint="#00FFFFFF" />
+
+        <Button
+            android:id="@+id/exitApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bgbutton"
+            android:drawableLeft="@drawable/smallexit"
+
+            android:drawableTint="#ffffff"
+            android:fontFamily="@font/montserrat"
+            android:text="Exit"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:backgroundTint="#00FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
